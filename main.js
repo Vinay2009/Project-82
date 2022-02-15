@@ -7,7 +7,7 @@ color = "black";
  canvas.addEventListener("mousedown", my_mousedown);
  function my_mousedown(e)
  {
-     color = document.getElementById("color").ariaValueMax;
+    color = document.getElementById("color").ariaValueMax;
      width_of_line = document.getElementById("width_of_line").value;
      mouseEvent = "mouseDown";
  }
